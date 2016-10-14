@@ -65,8 +65,7 @@
   margin: 0 auto;
   padding: 30px;
   max-height: 250px;
-  top: 20%;
-  position: relative;
+  margin-top: 20%;
 }
 
 .subheader {
@@ -251,4 +250,71 @@
 
 .section-resume h3 {
   font-family: 'Open Sans', sans-serif;
+}
+
+/**Beginning of media queries**/
+
+@media screen and (max-width: 770px) and (min-width: 680px) {
+  .section-one h1{
+    font-size: 30px;
+  }
+  .section-one .subheader{
+    width: 100%;
+  }
+  .section-one .nav-pills{
+    width: 100%;
+  }
+  .center {
+    margin-top: 0%;
+  }
+
+}
+
+@media screen and (max-width: 680px) and (min-width: 480px) {
+  .section-one h1{
+    font-size: 30px;
+  }
+  .section-one .subheader{
+    width: 100%;
+  }
+  .section-one .nav-pills{
+    width: 100%;
+  }
+  .center {
+    margin-top: 0px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .section-one h1{
+    font-size: 30px;
+  }
+  .section-one .subheader{
+    width: 100%;
+  }
+  .section-one .nav-pills{
+    width: 100%;
+  }
+  .center {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section-one h1{
+    font-size: 20px;
+  }
+  .section-one .subheader{
+    width: 100%;
+  }
+  .section-one .nav-pills{
+    max-width: 100%;
+  }
+  .center {
+    margin-top: 40%;
+  }
+  .navbar-brand {
+    display: none;
+  }
 }
