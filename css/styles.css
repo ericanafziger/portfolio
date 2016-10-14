@@ -64,3 +64,19 @@
   background-size: cover;
   opacity: 0.8;
 }
+
+img {
+  width: 100%;
+}
+
+.well img {
+  float: left;
+  width: 400px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.section-about .well {
+  margin-top: 10%;
+  min-height: 600px;
+}
