@@ -9,7 +9,6 @@
   -o-background-size: cover;
   background-size: cover;
   overflow: scroll;
-  opacity: 0.8;
 }
 
 .navbar-brand {
@@ -74,13 +73,15 @@
   margin: 0 auto;
   width: 300px;
   height: 25px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 16px;
+  font-style: italic;
+  font-size: 14px;
   font-weight: bold;
   line-height: 25px;
   border-top: 1px solid darkgrey;
   padding-top: 10px;
+  padding-bottom: 30px;
 
 }
 
@@ -102,7 +103,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: scroll;
-  opacity: 0.8;
 }
 
 .section-about .panel img {
@@ -167,7 +167,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: scroll;
-  opacity: 0.9;
 }
 
 .section-work .well h1 {
@@ -213,7 +212,6 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  opacity: 0.9;
   padding-bottom: 5%;
   overflow: scroll;
 }
