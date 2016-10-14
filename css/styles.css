@@ -226,10 +226,6 @@
   color: black;
 }
 
-.section-resume p {
-  text-indent: 10px;
-}
-
 .section-resume a:hover {
   color: darkgrey;
   text-decoration: none;
@@ -238,4 +234,10 @@
 .word-spacing {
   word-spacing: 40px;
   text-align: center;
+}
+
+.section-resume .floatright {
+  text-align: right;
+  float: right;
+  margin-bottom: 0px;
 }
