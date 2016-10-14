@@ -54,7 +54,7 @@
 }
 
 
-/**End of section-one styling**/
+/**Start of section-about styling**/
 
 
 .section-about {
@@ -106,7 +106,7 @@
   font-family: sans-serif;
 }
 
-/**End of section-about styling**/
+/**Start of section-work styling**/
 
 
 .section-work {
@@ -152,4 +152,47 @@
 
 .section-work h2 {
   font-family: 'Raleway', sans-serif;
+}
+
+/**Start of section-resume styling**/
+
+.section-resume {
+  background-image:url(../img/forest.jpg);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  opacity: 0.9;
+  padding-bottom: 5%;
+}
+
+.section-resume .well {
+  margin-top: 10%;
+  width: 65%;
+  margin-left: 20%;
+}
+
+.section-resume h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid darkgrey;
+  padding-bottom: 10px;
+}
+
+.section-resume a {
+  color: black;
+}
+
+.section-resume p {
+  text-indent: 10px;
+}
+
+.section-resume a:hover {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.word-spacing {
+  word-spacing: 40px;
+  text-align: center;
 }
