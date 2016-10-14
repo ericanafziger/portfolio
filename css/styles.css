@@ -65,11 +65,11 @@
   opacity: 0.8;
 }
 
-img {
+.section-about img {
   width: 100%;
 }
 
-.well img {
+.section-about .well img {
   float: left;
   width: 400px;
   max-width: 100%;
@@ -82,17 +82,17 @@ img {
   min-height: 600px;
 }
 
-.well h1 {
+.section-about .well h1 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 
-.well h3 {
+.section-about .well h3 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 
-.panel h4 {
+.section-about .panel h4 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 15px;
@@ -100,11 +100,41 @@ img {
   font-weight: bold;
 }
 
-
-.panel h4 a {
+.section-about .panel h4 a {
   color: black;
 }
 
-.well p {
+.section-about .well p {
   font-family: sans-serif;
+}
+
+/**End of section-about styling**/
+
+
+.section-work {
+  background-image:url(../img/forest.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.section-work .well h1 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.section-work a {
+  color: black;
+}
+
+.section-work a:hover {
+  color: darkgrey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section-work .nav {
+  margin-bottom: 10%;
 }
