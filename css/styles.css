@@ -8,7 +8,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .navbar-brand {
@@ -101,7 +101,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .section-about .panel img {
@@ -165,7 +165,7 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .section-work .well h1 {
@@ -212,7 +212,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   padding-bottom: 5%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .section-resume .well {
@@ -255,33 +255,44 @@
 /**Beginning of media queries**/
 
 @media screen and (max-width: 770px) and (min-width: 680px) {
-  .section-one h1{
+  h1{
     font-size: 30px;
   }
   .section-one .subheader{
     width: 100%;
   }
-  .section-one .nav-pills{
+  .nav-pills{
     width: 100%;
   }
   .center {
     margin-top: 0%;
   }
+  h2 {
+    font-size: 20px;
+  }
+  .section-resume .well {
+    width: 100%;
+    padding: 15px;
+  }
 
 }
 
 @media screen and (max-width: 680px) and (min-width: 480px) {
-  .section-one h1{
+  h1{
     font-size: 30px;
   }
   .section-one .subheader{
     width: 100%;
   }
-  .section-one .nav-pills{
+ .nav-pills{
     width: 100%;
   }
   .center {
     margin-top: 0px;
+  }
+  .section-resume .well {
+    width: 100%;
+    padding: 15px;
   }
 
 }
@@ -293,22 +304,30 @@
   .section-one .subheader{
     width: 100%;
   }
-  .section-one .nav-pills{
+  .nav-pills{
     width: 100%;
   }
   .center {
     margin-top: 40%;
   }
+  h2 {
+    font-size: 15px;
+  }
+  .section-resume .well {
+    width: 100%;
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 350px) {
-  .section-one h1{
+  h1{
     font-size: 20px;
   }
+
   .section-one .subheader{
     width: 100%;
   }
-  .section-one .nav-pills{
+  .nav-pills{
     max-width: 100%;
   }
   .center {
@@ -316,5 +335,10 @@
   }
   .navbar-brand {
     display: none;
+  }
+
+  .section-resume .well {
+    width: 100%;
+    padding: 15px;
   }
 }
