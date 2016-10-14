@@ -248,3 +248,7 @@
   float: right;
   margin-bottom: 0px;
 }
+
+.section-resume h3 {
+  font-family: 'Open Sans', sans-serif;
+}
