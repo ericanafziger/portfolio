@@ -10,9 +10,9 @@
 }
 
 
-.box {
+.section-one .well {
   margin: 0 auto;
-  width: 400px;
+  max-width: 400px;
   height: 250px;
   background-color: #fff;
   padding: 30px;
@@ -45,6 +45,7 @@
   font-weight: bold;
   line-height: 25px;
   border-top: 1px solid darkgrey;
+  padding-top: 10px;
 
 }
 
@@ -65,12 +66,9 @@
   opacity: 0.8;
 }
 
-.section-about img {
-  width: 100%;
-}
-
 .section-about .well img {
-  float: left;
+  width: 100%;
+  float: right;
   width: 400px;
   max-width: 100%;
   padding-right: 10px;
@@ -123,6 +121,9 @@
 .section-work .well h1 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  border-bottom: 1px solid darkgrey;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .section-work a {
@@ -137,4 +138,14 @@
 
 .section-work .nav {
   margin-bottom: 10%;
+}
+
+.section-work h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.section-work h4 {
+  font-family: 'Raleway', sans-serif;
 }
