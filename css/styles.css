@@ -72,6 +72,7 @@ img {
 .well img {
   float: left;
   width: 400px;
+  max-width: 100%;
   padding-right: 10px;
   padding-bottom: 10px;
 }
@@ -86,6 +87,11 @@ img {
   text-transform: uppercase;
 }
 
+.well h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
 .panel h4 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -93,6 +99,7 @@ img {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 
 .panel h4 a {
   color: black;
